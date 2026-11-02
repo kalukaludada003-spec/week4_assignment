@@ -1,0 +1,101 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kamal Bastola - My Personal Web Page</title>
+</head>
+
+<body>
+
+    <h1>Hello! I am Kamal Bastola</h1>
+
+    <p>
+        I am from Nepal. I am a student at Seoul Theological University.
+        I am passionate about technology, computers, and learning new things.
+    </p>
+
+    <p>
+        I love exploring new technologies, improving my coding skills,
+        and playing football in my free time.
+    </p>
+
+    <h2>My Favorite Photo</h2>
+    <img src="https://picsum.photos/400/300"
+         alt="A beautiful scenic landscape">
+
+    <h2>About My Hometown</h2>
+    <p>
+        I am from Nepal, a beautiful country known for its mountains,
+        natural beauty, rich culture, and friendly people.
+    </p>
+
+    <h2>My Interests & Technologies</h2>
+    <ul>
+        <li>Technology and Computer Science</li>
+        <li>HTML, CSS, and Web Development</li>
+        <li>Artificial Intelligence</li>
+        <li>Football and Sports</li>
+        <li>Learning New Programming Skills</li>
+    </ul>
+
+    <h2>My Top 3 Goals</h2>
+    <ol>
+        <li>Become a skilled software developer.</li>
+        <li>Learn new technologies and build creative projects.</li>
+        <li>Improve my football skills and enjoy playing with friends.</li>
+    </ol>
+
+    <h2>My Favorite Sport</h2>
+    <p>
+        Football is one of my favorite sports. I love playing football
+        because it keeps me active, teaches teamwork, and makes me happy.
+    </p>
+
+    <p>
+        Visit my university:
+        <a href="https://www.stu.ac.kr" target="_blank">
+            Seoul Theological University
+        </a>
+    </p>
+
+    <hr>
+
+    <h2 id="guestbook">Leave a Message (Guestbook)</h2>
+
+    <form>
+        <p>
+            <label for="visitor-name">Your Name:</label><br>
+            <input type="text" id="visitor-name"
+                   name="visitor-name"
+                   placeholder="Enter your name" required>
+        </p>
+
+        <p>
+            <label for="visitor-email">Your Email:</label><br>
+            <input type="email" id="visitor-email"
+                   name="visitor-email"
+                   placeholder="name@example.com" required>
+        </p>
+
+        <p>
+            <label for="visitor-message">Your Message:</label><br>
+            <textarea id="visitor-message"
+                      name="visitor-message"
+                      rows="4" cols="45"
+                      placeholder="Write your message..."></textarea>
+        </p>
+
+        <p>
+            <button type="submit">Submit Message</button>
+        </p>
+    </form>
+
+    <hr>
+
+    <p>Created by Kamal Bastola | Week 4 HTML Basics Practice.</p>
+
+</body>
+</html>
+```
